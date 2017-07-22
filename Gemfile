@@ -42,6 +42,9 @@ gem 'i18n'
 gem 'rails-i18n'
 
 gem 'aasm'
+gem 'carrierwave-qiniu'
+gem 'qiniu-rs'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
