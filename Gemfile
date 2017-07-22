@@ -38,6 +38,9 @@ gem 'font-awesome-rails'
 gem 'carrierwave'
 gem 'mini_magick'
 
+gem 'i18n'
+gem 'rails-i18n'
+
 gem 'aasm'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

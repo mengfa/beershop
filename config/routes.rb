@@ -17,7 +17,7 @@ Rails.application.routes.draw do
      resources :orders
   end
 
-  root 'products#index'
+  root 'welcome#index'
 
   resources :products do
     member do
@@ -41,6 +41,7 @@ Rails.application.routes.draw do
       post :apply_to_cancel
      end
    end
+
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
