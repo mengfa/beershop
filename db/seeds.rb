@@ -7,13 +7,13 @@
  #   Character.create(name: 'Luke', movie: movies.first)
 
  # 新增 admin 帳號  User #
-   if User.find_by(email: 'admin@rails.com').nil?
+   if User.find_by(email: 'tylvyang@qq.com').nil?
      u = User.new
-     u.name = '測試管理員'
-     u.email = 'admin@rails.com'
-     u.nickname = '測試管理員'
-     u.password = '111111'
-     u.password_confirmation = '111111'
+     u.name = '吕阳'
+     u.email = 'tylvyang@qq.com'
+     u.nickname = '吕阳'
+     u.password = 'sbg123123'
+     u.password_confirmation = 'sbg123123'
      u.is_admin = true
      u.save
      puts '創建管理員*1'
@@ -22,13 +22,13 @@
    end
 
    # 新增 user 帳號  User #
-   if User.find_by(email: 'user@rails.com').nil?
+   if User.find_by(email: '284409471@qq.com').nil?
      u = User.new
-     u.name = '測試管理員'
-     u.email = 'user@rails.com'
-     u.nickname = '測試管理員'
-     u.password = '111111'
-     u.password_confirmation = '111111'
+     u.name = '丁明亮'
+     u.email = '284409471@qq.com'
+     u.nickname = '丁明亮'
+     u.password = 'sbg123123'
+     u.password_confirmation = 'sbg123123'
      u.is_admin = true
      u.save
      puts '創建一般用戶*1'
