@@ -1,11 +1,11 @@
 zh-TW:
 #--=== J&A SELECT ===--#
-  j-and-a-select: BeerShop
+  j-and-a-select: CraftBillboard
 
 #--=== Devise 相关 ===--#
   devise:
     failure:
-      unauthenticated: 您必须是 BeerShop 用户才能进行操作。
+      unauthenticated: 您必须是 CraftBillboard 用户才能进行操作。
       not_found_in_database: 此帐号不存在。
       invalid: 帐号或密码输入错误。
     sessions:
@@ -26,8 +26,8 @@ zh-TW:
   dv-check-email: you@example.com
   dv-name: 用户名称
   dv-find-pwd: 取得密码
-  dv-account-signin: 已经是 BeerShop 用户了吗？按此登入。
-  dv-no-account-signup: 现在就加入BeerShop。
+  dv-account-signin: 已经是 CraftBillboard 用户了吗？按此登入。
+  dv-no-account-signup: 现在就加入CraftBillboard。
   dv-user: 人才
   dv-admin: 企业
   dv-set-pwd: 设定 6 到 16 字位密码
@@ -39,14 +39,14 @@ zh-TW:
   message-confirm-clear-cart: 您确定要清空整个购物车吗？
   message-clear-cart-success: 已清空购物车。
   message-payment-success: 已完成付款。
-  message-cancel-request-sent: 已提交申请，BeerShop 会尽速与您联系。
+  message-cancel-request-sent: 已提交申请，CraftBillboard 会尽速与您联系。
   message-payment-failed: 付款失败。
 
 #--=== 首页 ===--#
 
   # 品牌故事 #
   th-j-and-a-select: 品牌故事
-  th-j-and-a: BeerShop
+  th-j-and-a: CraftBillboard
   th-jimmy: 吕春海
   about-jimmy:
     二十五年木材职业生涯，十五年木屋设计制造，长白山，亚光湖国家级湿地公园总设计施工.
@@ -120,7 +120,7 @@ zh-TW:
   nav-currency: 切换币值
   wish-list-remove: 已收藏至愿望清单
   btn-add-to-cart-none: 商品缺货
-  best-matches: BeerShop 推荐商品
+  best-matches: CraftBillboard 推荐商品
 
   product-brand: 品牌
   product-size: 尺寸
@@ -235,7 +235,7 @@ zh-TW:
   account-wish-list-index: 愿望清单
   btn-move-to-cart: 移动至购物车
   wish-no-data: 您尚未收藏任何商品。
-  wish-suggest: BeerShop 诚挚向您推荐：
+  wish-suggest: CraftBillboard 诚挚向您推荐：
 
   # 历史订单 #
   account-order-index: 历史订单

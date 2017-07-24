@@ -1,11 +1,11 @@
 zh-CN:
 #--=== J&A SELECT ===--#
-  j-and-a-select: BeerShop
+  j-and-a-select: CraftBillboard
 
 #--=== Devise 相关 ===--#
   devise:
     failure:
-      unauthenticated: 您必须是 BeerShop 用户才能进行操作。
+      unauthenticated: 您必须是 CraftBillboard 用户才能进行操作。
       not_found_in_database: 此帐号不存在。
       invalid: 帐号或密码输入错误。
     sessions:
@@ -26,8 +26,8 @@ zh-CN:
   dv-check-email: you@example.com
   dv-name: 用户名称
   dv-find-pwd: 取得密码
-  dv-account-signin: 已经是 BeerShop 用户了吗？按此登入。
-  dv-no-account-signup: 现在就加入BeerShop。
+  dv-account-signin: 已经是 CraftBillboard 用户了吗？按此登入。
+  dv-no-account-signup: 现在就加入CraftBillboard。
   dv-user: 人才
   dv-admin: 企业
   dv-set-pwd: 设定 6 到 16 字位密码
@@ -39,14 +39,14 @@ zh-CN:
   message-confirm-clear-cart: 您确定要清空整个购物车吗？
   message-clear-cart-success: 已清空购物车。
   message-payment-success: 已完成付款。
-  message-cancel-request-sent: 已提交申请，BeerShop 会尽速与您联系。
+  message-cancel-request-sent: 已提交申请，CraftBillboard 会尽速与您联系。
   message-payment-failed: 付款失败。
 
 #--=== 首页 ===--#
 
   # 品牌故事 #
   th-j-and-a-select: 品牌故事
-  th-j-and-a: BeerShop
+  th-j-and-a: CraftBillboard
   th-jimmy: 丁明亮
   about-jimmy: 2b
 
@@ -57,17 +57,18 @@ zh-CN:
 
 
   # 商品分类 #
-  th-desk: 个人别墅
+  th-desk: 啤酒花
   slogan-desk:
-    厦门，北京，个人项目遍布中国，深受好评
+    夏日，午后。开一瓶啤酒，尚未尝到酒味，便先闻到酒香。柠檬香、柑橘香、花香、青草香，层次分明又相得益彰，这就是酒花的魅力。酒花被称为啤酒之灵魂，不仅可以增加苦味、香味，还具有有抑菌防腐的功效。
 
-  th-home: 景区景观
+
+  th-home: 麦芽
   slogan-home:
-    长白山，亚光湖多个大型项目设计施工经验
+    当啤酒浸润口腔，醇厚的麦香挑逗着你的味蕾，酒花、酵母的香气在酒体中完美的融合。这一切，只因你选择了正确的麦芽。麦芽，啤酒之骨，提供发酵需要的可发酵糖。优质的麦芽会酿制出醇厚的酒体，更好地承载酒花、酵母的香气。
 
-  th-accessories: 木材相关
+  th-accessories: 酵母
   slogan-accessories:
-    落叶松地板、壁板、胶合板、细木工板、指接材、实木家具等产品
+    是酵母创造了啤酒这一奇迹。它将糖转化为酒精和二氧化碳，并产生芳香物质。它是啤酒的血肉，没有它，就没有啤酒。每株酵母都有自己的特点，它们会在啤酒中将自己的天赋属性发挥的淋漓尽致。
 
 
   # 推荐商品 #
@@ -120,7 +121,7 @@ zh-CN:
   nav-currency: 切换币值
   wish-list-remove: 已收藏至愿望清单
   btn-add-to-cart-none: 商品缺货
-  best-matches: BeerShop 推荐商品
+  best-matches: CraftBillboard 推荐商品
 
   product-brand: 品牌
   product-size: 尺寸
@@ -235,7 +236,7 @@ zh-CN:
   account-wish-list-index: 愿望清单
   btn-move-to-cart: 移动至购物车
   wish-no-data: 您尚未收藏任何商品。
-  wish-suggest: BeerShop 诚挚向您推荐：
+  wish-suggest: CraftBillboard 诚挚向您推荐：
 
   # 历史订单 #
   account-order-index: 历史订单

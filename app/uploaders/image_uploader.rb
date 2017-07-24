@@ -5,10 +5,9 @@ class ImageUploader < CarrierWave::Uploader::Base
 
   include CarrierWave::MiniMagick
   # Choose what kind of storage to use for this uploader:
-  
+
   # storage :file
   storage :qiniu
-  # storage :fog
 
   # Override the directory where uploaded files will be stored.
   # This is a sensible default for uploaders that are meant to be mounted:
@@ -16,15 +15,31 @@ class ImageUploader < CarrierWave::Uploader::Base
     "uploads/#{model.class.to_s.underscore}/#{mounted_as}/#{model.id}"
   end
 
-  process resize_to_fit: [800, 800]
-
-  version :thumb do
-    process resize_to_fill: [200,200]
-  end
+  # process resize_to_fill: [800, 800]
+  #
+  # version :thumb do
+  #   process resize_to_fill: [200, 200]
+  # end
 
   version :medium do
-    process resize_to_fill: [400,400]
+    process resize_to_fill: [400, 400]
   end
+
+  # 商品資訊頁大圖 #
+  version :main do
+    process resize_to_fill: [600, 400]
+  end
+
+  # 商品資訊頁小圖 #
+  version :other do
+    process resize_to_fill: [200, 200]
+  end
+
+  # # 願望清單 / 購物車迷你圖 #
+  # version :mini do
+  #   process resize_to_fill: [100, 100]
+  # end
+
   # Provide a default URL as a default if there hasn't been a file uploaded:
   # def default_url(*args)
   #   # For Rails 3.1+ asset pipeline compatibility:
@@ -56,5 +71,4 @@ class ImageUploader < CarrierWave::Uploader::Base
   # def filename
   #   "something.jpg" if original_filename
   # end
-
 end
