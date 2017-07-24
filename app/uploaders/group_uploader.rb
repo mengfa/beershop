@@ -9,7 +9,7 @@ class GroupUploader < CarrierWave::Uploader::Base
   # storage :fog
 
 
-    storage :file # 本地端
+    storage :qiniu # 本地端
 
 
   # Override the directory where uploaded files will be stored.
